@@ -39,13 +39,13 @@ export default function Explorar() {
                     {cat.breeds?.[0]?.name || "Cat"}
                   </Typography>
                   <Typography variant="body2" sx={{ color: "text.secondary" }}>
-                    {cat.breeds?.[0]?.temperament || "No description available."}
+                    {cat.breeds?.[0]?.temperament  || "No description available."}
                   </Typography>
                 </CardContent>
               </CardActionArea>
               <CardActions>
                 <Button size="small" color="primary">
-                  *Corazon*
+                 ❤️
                 </Button>
               </CardActions>
             </Card>
